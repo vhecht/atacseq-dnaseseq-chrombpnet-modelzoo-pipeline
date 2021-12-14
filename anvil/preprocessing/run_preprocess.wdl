@@ -65,7 +65,8 @@ workflow preprocess {
 			encode_secret_key = encode_secret_key,
 			metadata = metadata,
 			reference_file = reference_file,
-			chrom_sizes = chrom_sizes
+			chrom_sizes = chrom_sizes,
+			blacklist = blacklist
  	}
 	output {
 		File peaks_bed = run_preprocess.peaks_bed
