@@ -9,7 +9,7 @@ task run_preprocess {
 		File reference_file
 		File chrom_sizes
 		File blacklist
-  	}	
+	}	
 	command {
 		#create data directories and download scripts
 		cd /; mkdir my_data
@@ -68,7 +68,7 @@ workflow preprocess {
 			reference_file = reference_file,
 			reference_file_index = reference_file_index,	
 			chrom_sizes = chrom_sizes
- 	}
+	}
 	output {
 		File peaks_bed = run_preprocess.peaks_bed
 		Array[File] output_bw = run_preprocess.output_bw
