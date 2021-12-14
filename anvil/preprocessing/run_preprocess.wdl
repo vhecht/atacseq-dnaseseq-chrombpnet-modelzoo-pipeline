@@ -63,10 +63,8 @@ workflow preprocess {
 			experiment = experiment,
 			encode_access_key = encode_access_key,
 			encode_secret_key = encode_secret_key,
-			pipeline_destination = pipeline_destination,
 			metadata = metadata,
 			reference_file = reference_file,
-			reference_file_index = reference_file_index,	
 			chrom_sizes = chrom_sizes
  	}
 	output {
