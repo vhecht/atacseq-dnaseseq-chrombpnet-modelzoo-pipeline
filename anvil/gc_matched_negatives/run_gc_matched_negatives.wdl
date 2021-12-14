@@ -62,7 +62,8 @@ workflow gc_matched_negatives {
 			reference_file = reference_file,
 			chrom_sizes = chrom_sizes,
 			reference_gc_hg38_stride_50_flank_size_1057 = reference_gc_hg38_stride_50_flank_size_1057,
-			peaks = peaks
+			peaks = peaks,
+			blacklist = blacklist
 
  	}
 	output {
