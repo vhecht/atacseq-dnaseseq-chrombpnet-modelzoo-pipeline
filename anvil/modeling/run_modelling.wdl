@@ -14,9 +14,9 @@ task run_modelling {
 		#create data directories and download scripts
 		cd /; mkdir my_data
 		cd /my_data
-		git clone --single-branch --branch chromatin-atlas https://github.com/kundajelab/TF-Atlas.git
-		chmod -R 777 TF-Atlas
-		cd TF-Atlas/anvil/modeling
+		git clone https://github.com/kundajelab/chromatin-atlas-anvil.git
+		chmod -R 777 chromatin-atlas-anvil
+		cd chromatin-atlas-anvil/anvil/modeling
 
 		## modelling
 
