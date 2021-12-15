@@ -14,9 +14,9 @@ task run_preprocess {
 		#create data directories and download scripts
 		cd /; mkdir my_data
 		cd /my_data
-		git clone --single-branch --branch chromatin-atlas https://github.com/kundajelab/TF-Atlas.git
-		chmod -R 777 TF-Atlas
-		cd TF-Atlas/anvil/preprocessing
+		git clone https://github.com/kundajelab/chromatin-atlas-anvil.git
+		chmod -R 777 chromatin-atlas-anvil
+		cd chromatin-atlas-anvil/anvil/preprocessing
 
 		#run the params create script and preprocess script
 		echo "run create_params.sh"
