@@ -25,9 +25,9 @@ task run_gc_matched_negatives {
 
 		echo "copying all files to cromwell_root folder"
 
-		gzip /project/data/negatives_with_summit.bed
+		gzip /project/data/${experiment}_negatives_with_summit.bed
 		
-		cp /project/data/negatives_with_summit.bed.gz /cromwell_root/negatives_with_summit.bed.gz
+		cp /project/data/${experiment}_negatives_with_summit.bed.gz /cromwell_root/negatives_with_summit.bed.gz
 		
 	}
 	
