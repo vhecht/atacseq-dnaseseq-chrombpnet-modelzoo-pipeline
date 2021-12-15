@@ -16,15 +16,6 @@ peaks=$5
 non_peaks=$6
 bias_model=$7
 
-export CUDNN=cudnn-8.1_cuda11.2
-export cuda=cuda-11.2
-export LD_LIBRARY_PATH=/usr/local/$cuda/lib64:/usr/local/$CUDNN/lib64:/usr/local/$CUDNN/include:/usr/local/$cuda/extras/CUPTI/lib64:/usr/local/lib:$LD_LIBRARY_PATH
-export PATH=/usr/local/$cuda/bin:$PATH
-export CUDA_HOME=/usr/local/$cuda
-export CPATH="/usr/local/$CUDNN/include:${CPATH}"
-export LIBRARY_PATH="/usr/local/$CUDNN/lib64:${LIBRARY_PATH}"
-export CPLUS_INCLUDE_PATH=/usr/local/$cuda/include
-
 mkdir /project
 project_dir=/project
 
@@ -113,14 +104,14 @@ else
     threads=2
 fi
 
-# python src/train_chrombpnet.py \
-#     -g ${reference_dir}/hg38.genome.fa \
-#     -b ${data_dir}/$experiment.bigWig \
-#     -p ${data_dir}/${experiment}_peaks.bed  \
-#     -n ${data_dir}/${experiment}_non_peaks.bed \
-#     -o $model_dir/${1} \
-#     -e 1 \
-#     -bm $bias_model
+python src/train_chrombpnet.py \
+     -g ${reference_dir}/hg38.genome.fa \
+     -b ${data_dir}/$experiment.bigWig \
+     -p ${data_dir}/${experiment}_peaks.bed  \
+     -n ${data_dir}/${experiment}_non_peaks.bed \
+     -o $model_dir/${1} \
+     -e 1 \
+     -bm $bias_model
 
 python src/metrics.py \
     -b ${data_dir}/$experiment.bigWig  \
