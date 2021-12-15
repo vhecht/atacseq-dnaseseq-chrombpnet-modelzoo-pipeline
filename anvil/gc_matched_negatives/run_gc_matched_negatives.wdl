@@ -15,13 +15,13 @@ task run_gc_matched_negatives {
 		cd /my_data
 		git clone https://github.com/kundajelab/chromatin-atlas-anvil.git
 		chmod -R 777 chromatin-atlas-anvil
-		cd chromatin-atlas-anvil/anvil/gc_matched_negatives
+		cd chromatin-atlas-anvil/anvil/gc_matched_negatives/
 
 		##outlier_detection
 
-		echo "run gc_negatives.sh" ${experiment} ${reference_file} ${chrom_sizes} ${blacklist}  ${peaks} ${reference_gc_hg38_stride_50_flank_size_1057} 
+		echo "bash gc_negatives.sh" ${experiment} ${reference_file} ${chrom_sizes} ${blacklist}  ${peaks} ${reference_gc_hg38_stride_50_flank_size_1057} 
 		
-		gc_negatives.sh ${experiment} ${reference_file} ${chrom_sizes} ${blacklist} ${peaks} ${reference_gc_hg38_stride_50_flank_size_1057}
+		bash gc_negatives.sh ${experiment} ${reference_file} ${chrom_sizes} ${blacklist} ${peaks} ${reference_gc_hg38_stride_50_flank_size_1057}
 
 		echo "copying all files to cromwell_root folder"
 
