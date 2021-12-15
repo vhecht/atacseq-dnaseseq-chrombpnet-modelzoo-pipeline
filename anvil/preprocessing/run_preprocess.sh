@@ -122,9 +122,13 @@ download_file $peaks "bed.gz" $peaks_md5sum 1 $logfile $encode_access_key \
 $encode_secret_key $downloads_dir
 # is there only one peak file in downloads_dir?
 
-echo $( timestamp ): [$!] " bedtools intersect -v -a" $downloads_dir"/*.bed.gz -b" $blacklist "| gzip >" $downloads_dir/peaks_no_blacklist.bed.gz
+echo "cp downloads/*.bed.gz downloads/peak.bed.gz"
 
-bedtools intersect -v -a $downloads_dir/*.bed.gz -b $blacklist | gzip > $downloads_dir/peaks_no_blacklist.bed.gz
+cp downloads/*.bed.gz downloads/peaks.bed.gz
+
+echo $( timestamp ): [$!] " bedtools intersect -v -a" $downloads_dir"/peaks.bed.gz -b" $blacklist "| gzip >" $downloads_dir/peaks_no_blacklist.bed.gz
+
+bedtools intersect -v -a $downloads_dir/peaks.bed.gz -b $blacklist | gzip > $downloads_dir/peaks_no_blacklist.bed.gz
 wait_for_jobs_to_finish "Download"
 
 # Step 3. preprocess
