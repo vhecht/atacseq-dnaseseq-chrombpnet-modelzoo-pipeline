@@ -30,13 +30,15 @@ task run_preprocess {
 		# is there only one peak file in downloads_dir?
 		cp downloads/peaks_no_blacklist.bed.gz /cromwell_root/peaks.bed.gz
 		cp -r bigWigs /cromwell_root/
-		
+		mv bigWigs/*.png /cromwell_root/bigWigs/pwm.png
+		mv bigWigs/*.txt /cromwell_root/bigWigs/pwm_score.txt
 	}
 	
 	output {
+		String pwm_check = read_string("bigWigs/pwm_score.txt") 
+		File pwm_bw = "bigWigs/pwm.png"
 		File peaks_bed = "peaks.bed.gz"
 		Array[File] output_bw = glob("bigWigs/*.bigWig")
-		Array[File] pwm_bw = glob("bigWigs/*.png")
 	}
 
 	runtime {
@@ -69,8 +71,9 @@ workflow preprocess {
 			blacklist = blacklist
  	}
 	output {
+		String pwm_check = run_preprocess.pwm_check
+		File pwm_bw = run_preprocess.pwm_bw
 		File peaks_bed = run_preprocess.peaks_bed
 		Array[File] output_bw = run_preprocess.output_bw
-		Array[File] pwm_bw = run_preprocess.pwm_bw
 	}
 }
