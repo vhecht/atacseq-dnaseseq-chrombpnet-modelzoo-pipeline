@@ -30,8 +30,8 @@ task run_preprocess {
 		# is there only one peak file in downloads_dir?
 		cp downloads/peaks_no_blacklist.bed.gz /cromwell_root/peaks.bed.gz
 		cp -r bigWigs /cromwell_root/
-		mv bigWigs/*.png /cromwell_root/bigWigs/pwm.png
-		mv bigWigs/*.txt /cromwell_root/bigWigs/pwm_score.txt
+		mv /cromwell_root/bigWigs/*.png /cromwell_root/bigWigs/pwm.png
+		mv /cromwell_root/bigWigs/*.txt /cromwell_root/bigWigs/pwm_score.txt
 	}
 	
 	output {
