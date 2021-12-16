@@ -148,18 +148,53 @@ wait_for_jobs_to_finish "Preprocessing"
 # Step 4. Check if ATAC/DNASE shifts are correct
 # create pwm image form bigwig
 tag=""
-echo $( timestamp ): "
-build_pwm_from_bigwig.py \\
-    -i $bigWigs_dir/$experiment$tag.bigWig \\
-    -g $reference_dir/hg38.genome.fa \\
-    -o $bigWigs_dir/$experiment$tag.png \\
-    -c \"chr20\" \\
-    -cz $reference_dir/chrom.sizes"  | tee -a $logfile
+
+if [ "$assay_type" = "DNase-seq" ] ; then
+
+    echo $( timestamp ): "
+        build_pwm_from_bigwig.py \\
+        -i $bigWigs_dir/$experiment$tag.bigWig \\
+        -g $reference_dir/hg38.genome.fa \\
+        -o $bigWigs_dir/$experiment$tag.png \\
+        -c \"chr20\" \\
+        -cz $reference_dir/chrom.sizes \\
+        -pw 8 \\
+        -pg dnase_motif_pwm_8width.json" | tee -a $logfile
     
-python \
-    build_pwm_from_bigwig.py \
-    -i $bigWigs_dir/$experiment$tag.bigWig \
-    -g $reference_dir/hg38.genome.fa \
-    -o $bigWigs_dir/$experiment$tag.png \
-    -c "chr20" \
-    -cz $reference_dir/chrom.sizes 
+    python \
+        build_pwm_from_bigwig.py \
+        -i $bigWigs_dir/$experiment$tag.bigWig \
+        -g $reference_dir/hg38.genome.fa \
+        -o $bigWigs_dir/$experiment$tag.png \
+        -c "chr20" \
+        -cz $reference_dir/chrom.sizes \
+        -pw 8 \
+        -pg dnase_motif_pwm_8width.json 
+
+elif [ "$assay_type" = "ATAC-seq" ] ; then
+
+    echo $( timestamp ): "
+        build_pwm_from_bigwig.py \\
+        -i $bigWigs_dir/$experiment$tag.bigWig \\
+        -g $reference_dir/hg38.genome.fa \\
+        -o $bigWigs_dir/$experiment$tag.png \\
+        -c \"chr20\" \\
+        -cz $reference_dir/chrom.sizes \\
+        -pw 24 \\
+        -pg tn5_motif_pwm_24width.json" | tee -a $logfile
+    
+    python \
+        build_pwm_from_bigwig.py \
+        -i $bigWigs_dir/$experiment$tag.bigWig \
+        -g $reference_dir/hg38.genome.fa \
+        -o $bigWigs_dir/$experiment$tag.png \
+        -c "chr20" \
+        -cz $reference_dir/chrom.sizes \
+        -pw 24 \
+        -pg tn5_motif_pwm_24width.json 
+
+else
+    echo "unknown assay type " $assay_type
+    exit 1
+fi
+
