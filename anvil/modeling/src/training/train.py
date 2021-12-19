@@ -38,7 +38,6 @@ def fit_and_evaluate(model,train_gen,valid_gen,args,architecture_module):
     model.fit(train_gen,
               validation_data=valid_gen,
               epochs=args.epochs,
-              steps_per_epoch=10,
               verbose=1,
               max_queue_size=100,
               workers=10,
