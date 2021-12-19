@@ -77,7 +77,7 @@ workflow modelling {
 		File peaks
 		File non_peaks
 		File bias_model
-
+		File fold_json
 	}
 
 	call run_modelling {
@@ -89,6 +89,7 @@ workflow modelling {
 			peaks = peaks,
 			non_peaks = non_peaks,
 			bias_model = bias_model
+			fold_json = fold_json
  	}
 	output {
 		Array[File] model = run_modelling.model
