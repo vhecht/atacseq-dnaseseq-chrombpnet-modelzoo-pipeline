@@ -88,7 +88,7 @@ workflow modelling {
 			bigwigs = bigwigs,
 			peaks = peaks,
 			non_peaks = non_peaks,
-			bias_model = bias_model
+			bias_model = bias_model,
 			fold_json = fold_json
  	}
 	output {
