@@ -23,7 +23,7 @@ task run_modelling {
 
 		echo "run modelling_pipeline.sh" ${experiment} ${reference_file} ${chrom_sizes} ${sep=',' bigwigs} ${peaks} ${non_peaks} ${bias_model} ${fold_json}
 
-		bash run modelling_pipeline.sh ${experiment} ${reference_file} ${chrom_sizes} ${sep=',' bigwigs} ${peaks} ${non_peaks} ${bias_model} ${fold_json}
+		bash modelling_pipeline.sh ${experiment} ${reference_file} ${chrom_sizes} ${sep=',' bigwigs} ${peaks} ${non_peaks} ${bias_model} ${fold_json}
 
 		echo "copying all files to cromwell_root folder"
 		
