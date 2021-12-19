@@ -56,7 +56,7 @@ task run_modelling {
 	}
 
 	runtime {
-		docker: 'kundajelab/chrombpnet-lite'
+		docker: 'vivekramalingam/tf-atlas:gcp-modeling'
 		memory: 32 + "GB"
 		bootDiskSizeGb: 100
 		disks: "local-disk 250 HDD"
