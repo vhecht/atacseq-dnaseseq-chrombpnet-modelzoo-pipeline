@@ -1,0 +1,11 @@
+{
+	"experiment": "ENCSR000EMT",
+	"assembly": "GRCh38",
+	"unfiltered_alignments": "ENCFF940NSD ENCFF467CXY",
+	"unfiltered_alignments_md5sums": "5c123caa7750b7cf7ae08e8070cc465a 7be63f3052161dd2a13376225e3a5c1f",
+	"alignments": "ENCFF020WZB ENCFF729UYK",
+	"alignments_md5sums": "e204b23d380342b04cbc30c836a50154 622bc1e169996ba8b5410e2e616c46fc",
+	"peaks": "ENCFF759OLD",
+	"peaks_md5sum": "72e37cbf02fc8958a73a3b8fe20c8cf6",
+	"assay_type": "DNase-seq"
+}
