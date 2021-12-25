@@ -14,4 +14,5 @@ fold=/scratch/groups/akundaje/anusri/chromatin_atlas/splits/fold_0.json
 bias_model=/scratch/groups/akundaje/anusri/chromatin_atlas/reference/atac.bias.2114.1000.h5
 output_dir=$dir/chrombpnet_model/
 
-singularity exec /home/groups/akundaje/anusri/simg/tf-atlas_latest.sif bash step6_train_chrombpnet_model.sh $reference_fasta $bigwig_path $overlap_peak $nonpeaks $fold $bias_model $output_dir
+singularity exec --nv /home/groups/akundaje/anusri/simg/tf-atlas_gcp-modeling.sif nvidia-smi
+singularity exec --nv /home/groups/akundaje/anusri/simg/tf-atlas_gcp-modeling.sif bash step6_train_chrombpnet_model.sh $reference_fasta $bigwig_path $overlap_peak $nonpeaks $fold $bias_model $output_dir
