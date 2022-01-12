@@ -109,7 +109,7 @@ samtools sort -@4 $intermediates_dir/$experiment$tag.bam -o $intermediates_dir/s
 
 # create index for the merged bam file
 echo $( timestamp ): "samtools index" \
-$intermediates_dir/$experiment$tag.bam | tee -a $logfile
+$intermediates_dir/sorted_$experiment$tag.bam | tee -a $logfile
 samtools index $intermediates_dir/sorted_$experiment$tag.bam
 
 
