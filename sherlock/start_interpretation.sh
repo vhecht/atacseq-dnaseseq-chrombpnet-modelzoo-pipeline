@@ -7,7 +7,7 @@ oak_dir=$4
 
 if [[ -d $output_dir/$experiment ]] ; then
     if [[ -f $output_dir/$experiment/chrombpnet_model/chrombpnet_wo_bias.h5 ]] ; then
-        if [[ -f $output_dir/$experiment/chrombpnet_model/$expeirment.profile_scores.h5 ]] ; then
+        if [[ -f $output_dir/$experiment/chrombpnet_model/interpret/$experiment.profile_scores.h5 ]] ; then
             echo "profile interpretations already exist - skipping"
         else
             mkdir $output_dir/$experiment/chrombpnet_model/interpret/
