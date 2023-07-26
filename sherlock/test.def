@@ -1,0 +1,5 @@
+Bootstrap: docker
+From: python:3.7-alpine
+
+%post 
+    pip install macs2==2.2.4

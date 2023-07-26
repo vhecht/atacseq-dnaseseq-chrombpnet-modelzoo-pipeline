@@ -1,0 +1,743 @@
+2022-01-24_00-47-00: [162496] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ELG//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ELG//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-24_00-47-00: [162496] Waiting for Download to finish...
+2022-01-24_00-47-01: Pending jobs - 162496
+2022-01-24_00-47-01: [116196] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EIG//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EIG//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-24_00-47-01: [116196] Waiting for Download to finish...
+2022-01-24_00-47-01: Pending jobs - 116196
+2022-01-24_00-47-01: [116196] Download finished.
+2022-01-24_00-47-01: [116244] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EIG//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EIG//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-24_00-47-01: [116244] Waiting for Preprocessing to finish...
+2022-01-24_00-47-01: Pending jobs - 116244
+2022-01-24_00-47-01: [162496] Download finished.
+2022-01-24_00-47-01: [162543] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ELG//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ELG//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-24_00-47-01: [116244] Preprocessing failed.
+ing to finish...
+2022-01-24_00-47-01: Pending jobs - 162543
+2022-01-24_00-47-01: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-24_00-47-01: [162543] Preprocessing failed.
+2022-01-24_00-47-01: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-24_00-48-13: [6641] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EIF//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EIF//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-24_00-48-13: [6641] Waiting for Download to finish...
+2022-01-24_00-48-13: Pending jobs - 6641
+2022-01-24_00-48-13: [6641] Download finished.
+2022-01-24_00-48-13: [6688] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EIF//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EIF//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-24_00-48-13: [6688] Waiting for Preprocessing to finish...
+2022-01-24_00-48-13: Pending jobs - 6688
+2022-01-24_00-48-14: [6688] Preprocessing failed.
+2022-01-24_00-48-14: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-24_01-07-32: [162711] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ELE//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ELE//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-24_01-07-32: [162711] Waiting for Download to finish...
+2022-01-24_01-07-32: Pending jobs - 162711
+2022-01-24_01-07-32: [162711] Download finished.
+2022-01-24_01-07-32: [162758] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ELE//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ELE//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-24_01-07-32: [162758] Waiting for Preprocessing to finish...
+2022-01-24_01-07-32: Pending jobs - 162758
+2022-01-24_01-07-32: [162758] Preprocessing failed.
+2022-01-24_01-07-32: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-24_01-10-15: [15754] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EII//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EII//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-24_01-10-15: [15754] Waiting for Download to finish...
+2022-01-24_01-10-15: Pending jobs - 15754
+2022-01-24_01-10-16: [15754] Download finished.
+2022-01-24_01-10-17: [15818] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EII//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EII//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-24_01-10-17: [15818] Waiting for Preprocessing to finish...
+2022-01-24_01-10-17: Pending jobs - 15818
+2022-01-24_01-10-17: [15818] Preprocessing failed.
+2022-01-24_01-10-17: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-28_19-03-35: [204568] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR409ZBD_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR409ZBD_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-28_19-03-35: [204568] Waiting for Download to finish...
+2022-01-28_19-03-35: Pending jobs - 204568
+2022-01-28_19-03-35: [68662] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR794TLA_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR794TLA_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-28_19-03-35: [68662] Waiting for Download to finish...
+2022-01-28_19-03-35: Pending jobs - 68662
+2022-01-28_19-03-35: [25616] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR125OEJ_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR125OEJ_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-28_19-03-35: [25616] Waiting for Download to finish...
+2022-01-28_19-03-35: Pending jobs - 25616
+2022-01-28_19-03-35: [16723] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR969QKG_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR969QKG_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-28_19-03-35: [16723] Waiting for Download to finish...
+2022-01-28_19-03-35: Pending jobs - 16723
+2022-01-28_19-03-35: [64465] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR208YDK_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR208YDK_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-28_19-03-35: [64465] Waiting for Download to finish...
+2022-01-28_19-03-35: Pending jobs - 64465
+2022-01-28_19-03-35: [204568] Download finished.
+2022-01-28_19-03-35: [204616] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR409ZBD_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR409ZBD_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-28_19-03-35: [204616] Waiting for Preprocessing to finish...
+2022-01-28_19-03-35: Pending jobs - 204616
+2022-01-28_19-03-35: [204616] Preprocessing failed.
+2022-01-28_19-03-35: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-28_19-03-35: [68662] Download finished.
+2022-01-28_19-03-35: [68710] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR794TLA_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR794TLA_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-28_19-03-35: [191746] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR515PDV_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR515PDV_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-28_19-03-35: Pending jobs - 68710
+2022-01-28_19-03-35: [191746] Waiting for Download to finish...
+2022-01-28_19-03-35: Pending jobs - 191746
+2022-01-28_19-03-35: [68710] Preprocessing failed.
+2022-01-28_19-03-35: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-28_19-03-36: [64465] Download finished.
+2022-01-28_19-03-36: [64514] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR208YDK_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR208YDK_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-28_19-03-36: [64514] Waiting for Preprocessing to finish...
+2022-01-28_19-03-36: [25616] Download finished.
+2022-01-28_19-03-36: Pending jobs - 64514
+2022-01-28_19-03-36: [16877] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR969QKG_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR969QKG_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-28_19-03-36: [25693] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR125OEJ_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR125OEJ_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-28_19-03-36: [64514] Preprocessing failed.
+ing to finish...
+2022-01-28_19-03-36: Pending jobs - 16877
+reprocessing to finish...
+2022-01-28_19-03-36: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-28_19-03-36: [16877] Preprocessing failed.
+2022-01-28_19-03-36: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-28_19-03-36: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-28_19-03-36: [28764] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR560MXA_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR560MXA_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-28_19-03-36: [28764] Waiting for Download to finish...
+2022-01-28_19-03-36: Pending jobs - 28764
+2022-01-28_19-03-36: [191746] Download finished.
+2022-01-28_19-03-36: [191794] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR515PDV_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR515PDV_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-28_19-03-36: [191794] Waiting for Preprocessing to finish...
+2022-01-28_19-03-36: Pending jobs - 191794
+2022-01-28_19-03-36: [191794] Preprocessing failed.
+2022-01-28_19-03-36: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-28_19-03-36: [28764] Download finished.
+2022-01-28_19-03-36: [28811] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR560MXA_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR560MXA_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-28_19-03-37: [28811] Waiting for Preprocessing to finish...
+2022-01-28_19-03-37: Pending jobs - 28811
+2022-01-28_19-03-37: [28811] Preprocessing failed.
+2022-01-28_19-03-37: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-28_19-04-31: [9131] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR365CUB_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR365CUB_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-28_19-04-31: [9131] Waiting for Download to finish...
+2022-01-28_19-04-31: Pending jobs - 9131
+2022-01-28_19-04-31: [9131] Download finished.
+2022-01-28_19-04-31: [9179] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR365CUB_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR365CUB_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-28_19-04-31: [9179] Waiting for Preprocessing to finish...
+2022-01-28_19-04-32: Pending jobs - 9179
+2022-01-28_19-04-32: [9179] Preprocessing failed.
+2022-01-28_19-04-32: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-28_19-04-32: [29197] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR109DTU_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR109DTU_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-28_19-04-32: [29197] Waiting for Download to finish...
+2022-01-28_19-04-32: Pending jobs - 29197
+2022-01-28_19-04-32: [29197] Download finished.
+2022-01-28_19-04-32: [29244] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR109DTU_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR109DTU_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-28_19-04-32: [29244] Waiting for Preprocessing to finish...
+2022-01-28_19-04-32: Pending jobs - 29244
+2022-01-28_19-04-32: [29244] Preprocessing failed.
+2022-01-28_19-04-32: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-31_01-25-43: [24977] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR917BSW_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR917BSW_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-31_01-25-43: [24977] Waiting for Download to finish...
+2022-01-31_01-25-43: Pending jobs - 24977
+2022-01-31_01-25-44: [59686] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR229BGG_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR229BGG_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-31_01-25-44: [59686] Waiting for Download to finish...
+2022-01-31_01-25-44: Pending jobs - 59686
+2022-01-31_01-25-44: [26180] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR736VVP_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR736VVP_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-31_01-25-44: [26180] Waiting for Download to finish...
+2022-01-31_01-25-44: Pending jobs - 26180
+2022-01-31_01-25-45: [59686] Download finished.
+2022-01-31_01-25-45: [59893] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR229BGG_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR229BGG_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-31_01-25-45: [59893] Waiting for Preprocessing to finish...
+2022-01-31_01-25-45: Pending jobs - 59893
+2022-01-31_01-25-45: [24977] Download finished.
+2022-01-31_01-25-45: [59893] Preprocessing failed.
+2022-01-31_01-25-45: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-31_01-25-45: [26180] Download finished.
+2022-01-31_01-25-45: [25025] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR917BSW_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR917BSW_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-31_01-25-45: [25025] Waiting for Preprocessing to finish...
+2022-01-31_01-25-45: Pending jobs - 25025
+2022-01-31_01-25-45: [26227] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR736VVP_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR736VVP_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-31_01-25-45: [25025] Preprocessing failed.
+ing to finish...
+2022-01-31_01-25-45: Pending jobs - 26227
+2022-01-31_01-25-45: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-31_01-25-45: [26227] Preprocessing failed.
+2022-01-31_01-25-45: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-31_01-25-55: [33041] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR975LGK_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR975LGK_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-31_01-25-55: [33041] Waiting for Download to finish...
+2022-01-31_01-25-55: Pending jobs - 33041
+2022-01-31_01-25-56: [6389] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR232NLA_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR232NLA_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-31_01-25-56: [6389] Waiting for Download to finish...
+2022-01-31_01-25-56: Pending jobs - 6389
+2022-01-31_01-25-56: [59460] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR518YYX_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR518YYX_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-31_01-25-56: [59464] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR009MDC_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR009MDC_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-31_01-25-56: [59460] Waiting for Download to finish...
+2022-01-31_01-25-56: [59464] Waiting for Download to finish...
+2022-01-31_01-25-56: Pending jobs - 59460
+2022-01-31_01-25-56: Pending jobs - 59464
+2022-01-31_01-25-56: [6389] Download finished.
+2022-01-31_01-25-56: [6436] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR232NLA_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR232NLA_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-31_01-25-56: [6436] Waiting for Preprocessing to finish...
+2022-01-31_01-25-56: Pending jobs - 6436
+2022-01-31_01-25-56: [6436] Preprocessing failed.
+2022-01-31_01-25-56: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-31_01-25-56: [33041] Download finished.
+2022-01-31_01-25-56: [14769] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR636DIR_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR636DIR_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-31_01-25-56: [14769] Waiting for Download to finish...
+2022-01-31_01-25-56: Pending jobs - 14769
+2022-01-31_01-25-56: [33089] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR975LGK_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR975LGK_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-31_01-25-56: [33089] Waiting for Preprocessing to finish...
+2022-01-31_01-25-56: Pending jobs - 33089
+2022-01-31_01-25-56: [33089] Preprocessing failed.
+2022-01-31_01-25-56: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-31_01-25-57: [25295] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR223XND_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR223XND_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-31_01-25-57: [25295] Waiting for Download to finish...
+2022-01-31_01-25-57: Pending jobs - 25295
+2022-01-31_01-25-57: [25335] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR780ABS_NR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR780ABS_NR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-01-31_01-25-57: [25335] Waiting for Download to finish...
+2022-01-31_01-25-57: Pending jobs - 25335
+2022-01-31_01-25-57: [59464] Download finished.
+2022-01-31_01-25-57: [59460] Download finished.
+2022-01-31_01-25-57: [59559] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR009MDC_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR009MDC_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-31_01-25-57: [59565] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR518YYX_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR518YYX_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-31_01-25-57: [59559] Waiting for Preprocessing to finish...
+2022-01-31_01-25-57: [59565] Waiting for Preprocessing to finish...
+2022-01-31_01-25-57: Pending jobs - 59559
+2022-01-31_01-25-57: Pending jobs - 59565
+2022-01-31_01-25-57: [59559] Preprocessing failed.
+2022-01-31_01-25-57: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-31_01-25-57: [59565] Preprocessing failed.
+2022-01-31_01-25-57: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-31_01-25-57: [14769] Download finished.
+2022-01-31_01-25-57: [14939] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR636DIR_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR636DIR_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-31_01-25-57: [14939] Waiting for Preprocessing to finish...
+2022-01-31_01-25-57: Pending jobs - 14939
+2022-01-31_01-25-57: [14939] Preprocessing failed.
+2-01-31_01-25-58: [25335] Download finished.
+2022-01-31_01-25-58: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-31_01-25-58: [25406] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR223XND_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR223XND_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-31_01-25-58: [25412] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR780ABS_NR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR780ABS_NR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-01-31_01-25-58: [25406] Waiting for Preprocessing to finish...
+2022-01-31_01-25-58: [25412] Waiting for Preprocessing to finish...
+2022-01-31_01-25-58: Pending jobs - 25406
+2022-01-31_01-25-58: Pending jobs - 25412
+2022-01-31_01-25-58: [25406] Preprocessing failed.
+2022-01-31_01-25-58: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-01-31_01-25-58: [25412] Preprocessing failed.
+2022-01-31_01-25-58: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-14-21: [68787] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR862ZDV//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR862ZDV//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-14-21: [68787] Waiting for Download to finish...
+2022-03-15_18-14-21: Pending jobs - 68787
+2022-03-15_18-14-21: [56892] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR526TFD//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR526TFD//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-14-21: [16081] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR302MYX//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR302MYX//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-14-21: [56892] Waiting for Download to finish...
+2022-03-15_18-14-21: [16081] Waiting for Download to finish...
+2022-03-15_18-14-21: Pending jobs - 56892
+2022-03-15_18-14-21: Pending jobs - 16081
+2022-03-15_18-14-21: [1903] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR534RXN//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR534RXN//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-14-21: [1954] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR875IVR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR875IVR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-14-21: [1903] Waiting for Download to finish...
+2022-03-15_18-14-21: Pending jobs - 1903
+2022-03-15_18-14-21: [1954] Waiting for Download to finish...
+2022-03-15_18-14-21: Pending jobs - 1954
+2022-03-15_18-14-21: [68787] Download finished.
+2022-03-15_18-14-21: [68865] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR862ZDV//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR862ZDV//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-14-21: [68865] Waiting for Preprocessing to finish...
+2022-03-15_18-14-21: Pending jobs - 68865
+2022-03-15_18-14-21: [68865] Preprocessing failed.
+2022-03-15_18-14-21: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-14-22: [16081] Download finished.
+2022-03-15_18-14-22: [16128] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR302MYX//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR302MYX//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-14-22: [1903] Download finished.
+2022-03-15_18-14-22: [1954] Download finished.
+cessing to finish...
+2022-03-15_18-14-22: Pending jobs - 16128
+2022-03-15_18-14-22: [16128] Preprocessing failed.
+2022-03-15_18-14-22: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-14-22: [56892] Download finished.
+2022-03-15_18-14-22: [56940] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR526TFD//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR526TFD//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-14-22: [56940] Waiting for Preprocessing to finish...
+2022-03-15_18-14-22: Pending jobs - 56940
+2022-03-15_18-14-22: [2276] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR534RXN//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR534RXN//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-14-22: [2276] Waiting for Preprocessing to finish...
+2022-03-15_18-14-22: Pending jobs - 2276
+2022-03-15_18-14-22: [56940] Preprocessing failed.
+2022-03-15_18-14-22: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-14-22: [2336] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR875IVR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR875IVR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-14-22: [2276] Preprocessing failed.
+2022-03-15_18-14-22: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-14-22: [2336] Waiting for Preprocessing to finish...
+2022-03-15_18-14-22: Pending jobs - 2336
+2022-03-15_18-14-22: [2336] Preprocessing failed.
+2022-03-15_18-14-22: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-18-55: [170343] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR794KUS//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR794KUS//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-18-55: [170343] Waiting for Download to finish...
+2022-03-15_18-18-55: Pending jobs - 170343
+2022-03-15_18-18-55: [44112] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR304CXS//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR304CXS//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-18-55: [44112] Waiting for Download to finish...
+2022-03-15_18-18-55: Pending jobs - 44112
+2022-03-15_18-18-55: [29797] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR437PXY//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR437PXY//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-18-55: [29797] Waiting for Download to finish...
+2022-03-15_18-18-55: Pending jobs - 29797
+2022-03-15_18-18-55: [13327] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR068KDQ//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR068KDQ//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-18-55: [13327] Waiting for Download to finish...
+2022-03-15_18-18-55: Pending jobs - 13327
+2022-03-15_18-18-55: [44112] Download finished.
+2022-03-15_18-18-55: [44176] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR304CXS//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR304CXS//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-18-55: [44176] Waiting for Preprocessing to finish...
+2022-03-15_18-18-55: Pending jobs - 44176
+2022-03-15_18-18-55: [44176] Preprocessing failed.
+2022-03-15_18-18-55: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-18-55: [205269] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR938OKL//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR938OKL//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-18-55: [205269] Waiting for Download to finish...
+2022-03-15_18-18-55: Pending jobs - 205269
+2022-03-15_18-18-55: [13374] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR068KDQ//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR068KDQ//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-18-55: [13374] Waiting for Preprocessing to finish...
+2022-03-15_18-18-55: Pending jobs - 13374
+2022-03-15_18-18-55: [170390] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR794KUS//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR794KUS//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-18-55: [170390] Waiting for Preprocessing to finish...
+2022-03-15_18-18-55: [13374] Preprocessing failed.
+2022-03-15_18-18-55: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-18-55: [170390] Preprocessing failed.
+2022-03-15_18-18-55: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-18-55: [142651] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR011VHK//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR011VHK//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-18-55: [142651] Waiting for Download to finish...
+2022-03-15_18-18-55: Pending jobs - 142651
+2022-03-15_18-18-55: [29797] Download finished.
+2022-03-15_18-18-55: [205269] Download finished.
+2022-03-15_18-18-56: [29858] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR437PXY//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR437PXY//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-18-56: [29858] Waiting for Preprocessing to finish...
+2022-03-15_18-18-56: Pending jobs - 29858
+2022-03-15_18-18-56: [205342] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR938OKL//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR938OKL//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-18-56: [205342] Waiting for Preprocessing to finish...
+2022-03-15_18-18-56: Pending jobs - 205342
+2022-03-15_18-18-56: [29858] Preprocessing failed.
+2022-03-15_18-18-56: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-18-56: [205342] Preprocessing failed.
+2022-03-15_18-18-56: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-18-56: [142651] Download finished.
+2022-03-15_18-18-56: [142726] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR011VHK//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR011VHK//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-18-56: [142726] Waiting for Preprocessing to finish...
+2022-03-15_18-18-56: Pending jobs - 142726
+2022-03-15_18-18-56: [142726] Preprocessing failed.
+2022-03-15_18-18-56: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-18-56: [30402] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR184TUE//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR184TUE//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-18-56: [30402] Waiting for Download to finish...
+2022-03-15_18-18-56: Pending jobs - 30402
+2022-03-15_18-18-57: [30402] Download finished.
+2022-03-15_18-18-57: [30450] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR184TUE//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR184TUE//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-18-57: [30450] Waiting for Preprocessing to finish...
+2022-03-15_18-18-57: Pending jobs - 30450
+2022-03-15_18-18-57: [30450] Preprocessing failed.
+2022-03-15_18-18-57: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-20-24: [17170] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR977UMU//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR977UMU//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-20-24: [17170] Waiting for Download to finish...
+2022-03-15_18-20-24: Pending jobs - 17170
+2022-03-15_18-20-24: [30931] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR181OGW//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR181OGW//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-20-24: [17170] Download finished.
+d to finish...
+2022-03-15_18-20-24: Pending jobs - 30931
+2022-03-15_18-20-25: [17217] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR977UMU//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR977UMU//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-20-25: [17217] Waiting for Preprocessing to finish...
+2022-03-15_18-20-25: Pending jobs - 17217
+2022-03-15_18-20-25: [30931] Download finished.
+2022-03-15_18-20-25: [17217] Preprocessing failed.
+2022-03-15_18-20-25: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-20-25: [30978] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR181OGW//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR181OGW//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-20-25: [30978] Waiting for Preprocessing to finish...
+2022-03-15_18-20-25: Pending jobs - 30978
+2022-03-15_18-20-25: [30978] Preprocessing failed.
+2022-03-15_18-20-25: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-20-26: [3771] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR796PIM//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR796PIM//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-20-26: [3786] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR654LST//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR654LST//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-20-26: [3771] Waiting for Download to finish...
+2022-03-15_18-20-26: [3786] Waiting for Download to finish...
+2022-03-15_18-20-26: Pending jobs - 3771
+2022-03-15_18-20-26: Pending jobs - 3786
+2022-03-15_18-20-26: [12803] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR295UXT//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR295UXT//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-20-26: [12803] Waiting for Download to finish...
+2022-03-15_18-20-27: Pending jobs - 12803
+2022-03-15_18-20-27: [3771] Download finished.
+2022-03-15_18-20-27: [3786] Download finished.
+2022-03-15_18-20-27: [3876] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR796PIM//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR796PIM//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-20-27: [3876] Waiting for Preprocessing to finish...
+2022-03-15_18-20-27: Pending jobs - 3876
+2022-03-15_18-20-27: [3904] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR654LST//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR654LST//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-20-27: [3904] Waiting for Preprocessing to finish...
+2022-03-15_18-20-27: Pending jobs - 3904
+2022-03-15_18-20-27: [3904] Preprocessing failed.
+2022-03-15_18-20-27: [3876] Preprocessing failed.
+2022-03-15_18-20-27: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-20-27: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-20-27: [12803] Download finished.
+2022-03-15_18-20-27: [12851] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR295UXT//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR295UXT//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-20-27: [12851] Waiting for Preprocessing to finish...
+2022-03-15_18-20-27: Pending jobs - 12851
+2022-03-15_18-20-27: [12851] Preprocessing failed.
+2022-03-15_18-20-27: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-20-28: [5549] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR614NSH//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR614NSH//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-20-28: [5549] Waiting for Download to finish...
+2022-03-15_18-20-28: Pending jobs - 5549
+2022-03-15_18-20-28: [5549] Download finished.
+2022-03-15_18-20-28: [5598] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR614NSH//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR614NSH//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-20-28: [5598] Waiting for Preprocessing to finish...
+2022-03-15_18-20-28: Pending jobs - 5598
+2022-03-15_18-20-28: [5598] Preprocessing failed.
+2022-03-15_18-20-28: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-21-59: [31430] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR012RCX//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR012RCX//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-21-59: [31430] Waiting for Download to finish...
+2022-03-15_18-21-59: Pending jobs - 31430
+2022-03-15_18-21-59: [31430] Download finished.
+2022-03-15_18-21-59: [31477] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR012RCX//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR012RCX//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-21-59: [31477] Waiting for Preprocessing to finish...
+2022-03-15_18-21-59: Pending jobs - 31477
+2022-03-15_18-21-59: [31477] Preprocessing failed.
+2022-03-15_18-21-59: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-23-20: [5274] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR400YJR//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR400YJR//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-23-20: [5274] Waiting for Download to finish...
+2022-03-15_18-23-20: Pending jobs - 5274
+2022-03-15_18-23-20: [5274] Download finished.
+2022-03-15_18-23-20: [5322] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR400YJR//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR400YJR//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-23-20: [5322] Waiting for Preprocessing to finish...
+2022-03-15_18-23-20: Pending jobs - 5322
+2022-03-15_18-23-20: [5322] Preprocessing failed.
+2022-03-15_18-23-20: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-23-23: [24024] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR326TID//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR326TID//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-23-23: [24028] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR017SBI//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR017SBI//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2022-03-15_18-23-23: [24028] Waiting for Download to finish...
+2022-03-15_18-23-23: [24024] Waiting for Download to finish...
+2022-03-15_18-23-23: Pending jobs - 24028
+2022-03-15_18-23-23: Pending jobs - 24024
+2022-03-15_18-23-24: [24028] Download finished.
+2022-03-15_18-23-24: [24024] Download finished.
+2022-03-15_18-23-24: [24116] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR017SBI//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR017SBI//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-23-24: [24116] Waiting for Preprocessing to finish...
+2022-03-15_18-23-24: Pending jobs - 24116
+2022-03-15_18-23-24: [24166] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR326TID//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR326TID//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2022-03-15_18-23-24: [24166] Waiting for Preprocessing to finish...
+2022-03-15_18-23-24: [24116] Preprocessing failed.
+2022-03-15_18-23-24: Pending jobs - 24166
+2022-03-15_18-23-24: 1 Preprocessing jobs failed. Aborting pipeline.
+2022-03-15_18-23-24: [24166] Preprocessing failed.
+2022-03-15_18-23-24: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-07_18-16-52: [6096] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR678ILN//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR678ILN//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-07_18-16-52: [6096] Waiting for Download to finish...
+2023-02-07_18-16-52: Pending jobs - 6096
+2023-02-07_18-16-52: [6096] Download finished.
+2023-02-07_18-16-52: [6151] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR678ILN//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR678ILN//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-07_18-16-52: [6151] Waiting for Preprocessing to finish...
+2023-02-07_18-16-52: Pending jobs - 6151
+2023-02-07_18-16-52: [6151] Preprocessing failed.
+2023-02-07_18-16-52: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-24: [30873] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EPV//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EPV//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-24: [30873] Waiting for Download to finish...
+2023-02-19_12-05-24: Pending jobs - 30873
+2023-02-19_12-05-24: [30899] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ELW//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ELW//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-24: [30899] Waiting for Download to finish...
+2023-02-19_12-05-24: Pending jobs - 30899
+2023-02-19_12-05-25: [44243] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EOD//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EOD//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-25: [44243] Waiting for Download to finish...
+2023-02-19_12-05-25: Pending jobs - 44243
+2023-02-19_12-05-26: [30873] Download finished.
+2023-02-19_12-05-26: [30899] Download finished.
+2023-02-19_12-05-26: [31076] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EPV//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EPV//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-26: [31086] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ELW//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ELW//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-26: [31076] Waiting for Preprocessing to finish...
+2023-02-19_12-05-26: Pending jobs - 31076
+2023-02-19_12-05-26: [31086] Waiting for Preprocessing to finish...
+2023-02-19_12-05-26: Pending jobs - 31086
+2023-02-19_12-05-26: [31076] Preprocessing failed.
+2023-02-19_12-05-26: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-26: [31086] Preprocessing failed.
+2023-02-19_12-05-26: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-26: [44243] Download finished.
+2023-02-19_12-05-26: [44307] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EOD//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EOD//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-26: [44307] Waiting for Preprocessing to finish...
+2023-02-19_12-05-26: Pending jobs - 44307
+2023-02-19_12-05-26: [44307] Preprocessing failed.
+2023-02-19_12-05-26: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-26: [17981] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EPE//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EPE//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-26: [17981] Waiting for Download to finish...
+2023-02-19_12-05-26: Pending jobs - 17981
+2023-02-19_12-05-27: [7692] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ENI//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ENI//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-27: [7692] Waiting for Download to finish...
+2023-02-19_12-05-27: Pending jobs - 7692
+2023-02-19_12-05-27: [1794] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EPG//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EPG//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-27: [22586] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000FJH//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000FJH//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-27: [1794] Waiting for Download to finish...
+2023-02-19_12-05-27: [22586] Waiting for Download to finish...
+2023-02-19_12-05-27: Pending jobs - 1794
+2023-02-19_12-05-27: Pending jobs - 22586
+2023-02-19_12-05-27: [10337] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EOT//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EOT//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-27: [10337] Waiting for Download to finish...
+2023-02-19_12-05-27: Pending jobs - 10337
+2023-02-19_12-05-27: [10394] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000FEK//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000FEK//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-27: [10394] Waiting for Download to finish...
+2023-02-19_12-05-27: Pending jobs - 10394
+2023-02-19_12-05-27: [22586] Download finished.
+2023-02-19_12-05-27: [22640] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000FJH//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000FJH//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-27: [22640] Waiting for Preprocessing to finish...
+2023-02-19_12-05-27: Pending jobs - 22640
+2023-02-19_12-05-27: [22640] Preprocessing failed.
+2023-02-19_12-05-27: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-27: [17981] Download finished.
+2023-02-19_12-05-27: [18038] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EPE//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EPE//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-27: [18038] Waiting for Preprocessing to finish...
+2023-02-19_12-05-27: Pending jobs - 18038
+2023-02-19_12-05-27: [18038] Preprocessing failed.
+2023-02-19_12-05-27: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-27: [7692] Download finished.
+2023-02-19_12-05-27: [7749] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ENI//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ENI//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-27: [7749] Waiting for Preprocessing to finish...
+2023-02-19_12-05-27: Pending jobs - 7749
+2023-02-19_12-05-28: [7749] Preprocessing failed.
+2023-02-19_12-05-28: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-28: [10394] Download finished.
+2023-02-19_12-05-28: [10337] Download finished.
+2023-02-19_12-05-28: [10468] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000FEK//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000FEK//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-28: [10468] Waiting for Preprocessing to finish...
+2023-02-19_12-05-28: [10476] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EOT//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EOT//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-28: Pending jobs - 10468
+2023-02-19_12-05-28: [10476] Waiting for Preprocessing to finish...
+2023-02-19_12-05-28: Pending jobs - 10476
+2023-02-19_12-05-28: [13178] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ENS//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ENS//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-28: [13178] Waiting for Download to finish...
+2023-02-19_12-05-28: [10468] Preprocessing failed.
+2023-02-19_12-05-28: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-28: [10476] Preprocessing failed.
+2023-02-19_12-05-28: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-28: [1794] Download finished.
+2023-02-19_12-05-28: [1850] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EPG//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EPG//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-28: [1850] Waiting for Preprocessing to finish...
+2023-02-19_12-05-28: Pending jobs - 1850
+2023-02-19_12-05-28: [1850] Preprocessing failed.
+2023-02-19_12-05-28: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-28: [13178] Download finished.
+2023-02-19_12-05-28: [13233] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ENS//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000ENS//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-28: [13233] Waiting for Preprocessing to finish...
+2023-02-19_12-05-28: Pending jobs - 13233
+2023-02-19_12-05-28: [13233] Preprocessing failed.
+2023-02-19_12-05-28: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-28: [3065] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000FFJ//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000FFJ//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-28: [3074] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000FJL//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000FJL//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-28: [3065] Waiting for Download to finish...
+2023-02-19_12-05-28: [3074] Waiting for Download to finish...
+2023-02-19_12-05-28: Pending jobs - 3065
+2023-02-19_12-05-28: Pending jobs - 3074
+2023-02-19_12-05-29: [3065] Download finished.
+2023-02-19_12-05-29: [3074] Download finished.
+2023-02-19_12-05-29: [3178] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000FFJ//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000FFJ//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-29: [3178] Waiting for Preprocessing to finish...
+2023-02-19_12-05-29: [3192] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000FJL//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000FJL//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-29: Pending jobs - 3178
+2023-02-19_12-05-29: [3192] Waiting for Preprocessing to finish...
+2023-02-19_12-05-29: Pending jobs - 3192
+2023-02-19_12-05-29: [3192] Preprocessing failed.
+2023-02-19_12-05-29: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-29: [3178] Preprocessing failed.
+2023-02-19_12-05-29: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-29: [116077] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR678ILN//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR678ILN//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-29: [116077] Waiting for Download to finish...
+2023-02-19_12-05-29: Pending jobs - 116077
+2023-02-19_12-05-29: [13735] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EQG//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EQG//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-29: [13735] Waiting for Download to finish...
+2023-02-19_12-05-29: Pending jobs - 13735
+2023-02-19_12-05-30: [116077] Download finished.
+2023-02-19_12-05-30: [116135] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR678ILN//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR678ILN//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-30: [116135] Waiting for Preprocessing to finish...
+2023-02-19_12-05-30: Pending jobs - 116135
+2023-02-19_12-05-30: [116135] Preprocessing failed.
+2023-02-19_12-05-30: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-30: [13735] Download finished.
+2023-02-19_12-05-30: [13794] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EQG//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EQG//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-30: [13794] Waiting for Preprocessing to finish...
+2023-02-19_12-05-30: Pending jobs - 13794
+2023-02-19_12-05-30: [13794] Preprocessing failed.
+2023-02-19_12-05-30: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-30: [44157] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR691MQJ//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR691MQJ//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-30: [44157] Waiting for Download to finish...
+2023-02-19_12-05-30: Pending jobs - 44157
+2023-02-19_12-05-30: [44254] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EOO//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EOO//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-30: [44254] Waiting for Download to finish...
+2023-02-19_12-05-30: Pending jobs - 44254
+2023-02-19_12-05-31: [44157] Download finished.
+2023-02-19_12-05-31: [44326] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EQB//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EQB//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-31: [44326] Waiting for Download to finish...
+2023-02-19_12-05-31: [44254] Download finished.
+2023-02-19_12-05-31: Pending jobs - 44326
+2023-02-19_12-05-31: [44383] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR691MQJ//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR691MQJ//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-31: [44383] Waiting for Preprocessing to finish...
+2023-02-19_12-05-31: Pending jobs - 44383
+2023-02-19_12-05-31: [44427] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EOO//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EOO//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-31: [44427] Waiting for Preprocessing to finish...
+2023-02-19_12-05-31: Pending jobs - 44427
+2023-02-19_12-05-31: [44383] Preprocessing failed.
+2023-02-19_12-05-31: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-31: [44427] Preprocessing failed.
+2023-02-19_12-05-31: [44326] Download finished.
+2023-02-19_12-05-31: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-31: [44541] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EQB//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EQB//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-31: [44541] Waiting for Preprocessing to finish...
+2023-02-19_12-05-31: Pending jobs - 44541
+2023-02-19_12-05-31: [44541] Preprocessing failed.
+2023-02-19_12-05-31: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-31: [80020] ./download.sh /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EQC//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EQC//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-31: [80020] Waiting for Download to finish...
+2023-02-19_12-05-31: Pending jobs - 80020
+2023-02-19_12-05-31: [80020] Download finished.
+ch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EPD//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EPD//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-05-32: [9602] Waiting for Download to finish...
+2023-02-19_12-05-32: Pending jobs - 9602
+2023-02-19_12-05-32: [80076] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EQC//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EQC//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-32: [80076] Waiting for Preprocessing to finish...
+2023-02-19_12-05-32: Pending jobs - 80076
+2023-02-19_12-05-32: [80076] Preprocessing failed.
+2023-02-19_12-05-32: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-05-32: [9602] Download finished.
+2023-02-19_12-05-32: [9657] ./preprocessing.sh "" "" /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EPD//preprocessing/intermediates /scratch/groups/akundaje/anusri/chromatin_atlas/DNASE/ENCSR000EPD//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-05-32: [9657] Waiting for Preprocessing to finish...
+2023-02-19_12-05-32: Pending jobs - 9657
+2023-02-19_12-05-32: [9657] Preprocessing failed.
+2023-02-19_12-05-32: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-19-29: [47793] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EOD//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EOD//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-19-29: [47793] Waiting for Download to finish...
+2023-02-19_12-19-29: Pending jobs - 47793
+2023-02-19_12-19-29: [34058] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EPV//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EPV//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-19-29: [34058] Waiting for Download to finish...
+2023-02-19_12-19-29: Pending jobs - 34058
+2023-02-19_12-19-29: [34058] Download finished.
+2023-02-19_12-19-29: [34118] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EPV//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EPV//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-19-29: [34118] Waiting for Preprocessing to finish...
+2023-02-19_12-19-29: Pending jobs - 34118
+2023-02-19_12-19-29: [34118] Preprocessing failed.
+2023-02-19_12-19-29: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-19-30: [47793] Download finished.
+2023-02-19_12-19-30: [47848] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EOD//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EOD//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-19-30: [47848] Waiting for Preprocessing to finish...
+2023-02-19_12-19-30: Pending jobs - 47848
+2023-02-19_12-19-30: [47848] Preprocessing failed.
+2023-02-19_12-19-30: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-19-51: [14949] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EPD//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EPD//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-19-51: [14949] Waiting for Download to finish...
+2023-02-19_12-19-51: Pending jobs - 14949
+2023-02-19_12-19-51: [14949] Download finished.
+2023-02-19_12-19-51: [34760] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EQC//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EQC//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-19-51: [34760] Waiting for Download to finish...
+2023-02-19_12-19-51: Pending jobs - 34760
+2023-02-19_12-19-51: [15003] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EPD//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EPD//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-19-51: [15003] Waiting for Preprocessing to finish...
+2023-02-19_12-19-51: Pending jobs - 15003
+2023-02-19_12-19-51: [34823] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR678ILN//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR678ILN//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-19-51: [34823] Waiting for Download to finish...
+2023-02-19_12-19-51: Pending jobs - 34823
+2023-02-19_12-19-51: [15003] Preprocessing failed.
+2023-02-19_12-19-51: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-19-51: [34760] Download finished.
+2023-02-19_12-19-51: [34879] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EQC//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EQC//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-19-51: [34879] Waiting for Preprocessing to finish...
+2023-02-19_12-19-51: [34823] Download finished.
+2023-02-19_12-19-51: Pending jobs - 34879
+2023-02-19_12-19-51: [34957] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR678ILN//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR678ILN//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-19-51: [34879] Preprocessing failed.
+2023-02-19_12-19-51: [34957] Waiting for Preprocessing to finish...
+2023-02-19_12-19-51: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-19-51: Pending jobs - 34957
+2023-02-19_12-19-51: [34957] Preprocessing failed.
+2023-02-19_12-19-51: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-19-52: [26880] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EPE//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EPE//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-19-52: [26880] Waiting for Download to finish...
+2023-02-19_12-19-52: Pending jobs - 26880
+2023-02-19_12-19-52: [12013] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000ENI//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000ENI//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-19-52: [7389] Waiting for Download to finish...
+2023-02-19_12-19-52: [12013] Waiting for Download to finish...
+2023-02-19_12-19-52: Pending jobs - 7389
+2023-02-19_12-19-52: Pending jobs - 12013
+2023-02-19_12-19-52: [26880] Download finished.
+2023-02-19_12-19-52: [26942] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EPE//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EPE//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-19-52: [26942] Waiting for Preprocessing to finish...
+2023-02-19_12-19-52: Pending jobs - 26942
+2023-02-19_12-19-52: [12013] Download finished.
+2023-02-19_12-19-52: [7389] Download finished.
+2023-02-19_12-19-52: [26942] Preprocessing failed.
+2023-02-19_12-19-52: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-19-53: [12073] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000ENI//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000ENI//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-19-53: [7449] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EPG//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EPG//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-19-53: [12073] Waiting for Preprocessing to finish...
+2023-02-19_12-19-53: Pending jobs - 12073
+eprocessing to finish...
+2023-02-19_12-19-53: Pending jobs - 7449
+2023-02-19_12-19-53: [7449] Preprocessing failed.
+
+2023-02-19_12-19-53: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-19-53: [302] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000FJH//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000FJH//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-19-53: [302] Waiting for Download to finish...
+2023-02-19_12-19-53: Pending jobs - 302
+2023-02-19_12-19-53: [302] Download finished.
+2023-02-19_12-19-53: [362] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000FJH//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000FJH//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-19-53: [362] Waiting for Preprocessing to finish...
+2023-02-19_12-19-53: Pending jobs - 362
+2023-02-19_12-19-54: [362] Preprocessing failed.
+2023-02-19_12-19-54: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-20-15: [48348] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000ELW//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000ELW//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-20-15: [48348] Waiting for Download to finish...
+2023-02-19_12-20-15: Pending jobs - 48348
+2023-02-19_12-20-15: [48348] Download finished.
+2023-02-19_12-20-15: [48401] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000ELW//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000ELW//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-20-15: [48401] Waiting for Preprocessing to finish...
+2023-02-19_12-20-15: Pending jobs - 48401
+2023-02-19_12-20-15: [48401] Preprocessing failed.
+2023-02-19_12-20-15: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-20-33: [48971] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EQG//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EQG//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-20-33: [48971] Waiting for Download to finish...
+2023-02-19_12-20-33: Pending jobs - 48971
+2023-02-19_12-20-33: [49027] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000ENS//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000ENS//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-20-33: [49027] Waiting for Download to finish...
+2023-02-19_12-20-33: Pending jobs - 49027
+2023-02-19_12-20-33: [48971] Download finished.
+2023-02-19_12-20-33: [49027] Download finished.
+2023-02-19_12-20-33: [49094] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EQG//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EQG//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-20-33: [49094] Waiting for Preprocessing to finish...
+2023-02-19_12-20-33: Pending jobs - 49094
+2023-02-19_12-20-33: [49149] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000ENS//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000ENS//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-20-33: [49149] Waiting for Preprocessing to finish...
+2023-02-19_12-20-33: Pending jobs - 49149
+2023-02-19_12-20-33: [49094] Preprocessing failed.
+2023-02-19_12-20-33: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-20-33: [49149] Preprocessing failed.
+2023-02-19_12-20-33: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-20-35: [962] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000FFJ//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000FFJ//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-20-35: [962] Waiting for Download to finish...
+2023-02-19_12-20-35: Pending jobs - 962
+2023-02-19_12-20-35: [6217] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EQB//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EQB//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-20-35: [6217] Waiting for Download to finish...
+2023-02-19_12-20-35: Pending jobs - 6217
+2023-02-19_12-20-35: [12647] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EOT//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EOT//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-20-35: [12647] Waiting for Download to finish...
+2023-02-19_12-20-35: Pending jobs - 12647
+2023-02-19_12-20-35: [962] Download finished.
+2023-02-19_12-20-35: [1035] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000FFJ//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000FFJ//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-20-35: [1035] Waiting for Preprocessing to finish...
+2023-02-19_12-20-35: Pending jobs - 1035
+2023-02-19_12-20-35: [12701] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EOT//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EOT//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-20-35: [12701] Waiting for Preprocessing to finish...
+2023-02-19_12-20-35: [1035] Preprocessing failed.
+2023-02-19_12-20-35: Pending jobs - 12701
+2023-02-19_12-20-35: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-20-35: [15579] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000FJL//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000FJL//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-20-35: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-20-35: [15579] Waiting for Download to finish...
+2023-02-19_12-20-35: Pending jobs - 15579
+2023-02-19_12-20-35: [6217] Download finished.
+2023-02-19_12-20-35: [6272] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EQB//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EQB//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-20-35: [6272] Waiting for Preprocessing to finish...
+2023-02-19_12-20-35: [6005] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EOO//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EOO//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-20-35: Pending jobs - 6272
+2023-02-19_12-20-35: [6005] Waiting for Download to finish...
+2023-02-19_12-20-35: Pending jobs - 6005
+2023-02-19_12-20-35: [6272] Preprocessing failed.
+2023-02-19_12-20-35: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-20-35: [15579] Download finished.
+2023-02-19_12-20-35: [15632] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000FJL//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000FJL//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-20-35: [15632] Waiting for Preprocessing to finish...
+2023-02-19_12-20-35: Pending jobs - 15632
+2023-02-19_12-20-35: [15632] Preprocessing failed.
+2023-02-19_12-20-35: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-20-36: [7883] ./download.sh /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR691MQJ//preprocessing/downloads https://www.encodeproject.org/files/bed.gz/@@download/bed.gz.1 /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR691MQJ//preprocessing//preprocess_.log 27I2ZM55 2fbrbhfjliebhafv
+2023-02-19_12-20-36: [7883] Waiting for Download to finish...
+2023-02-19_12-20-36: Pending jobs - 7883
+2023-02-19_12-20-36: [6005] Download finished.
+2023-02-19_12-20-36: [6060] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EOO//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR000EOO//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-20-36: [6060] Waiting for Preprocessing to finish...
+2023-02-19_12-20-36: Pending jobs - 6060
+2023-02-19_12-20-36: [6060] Preprocessing failed.
+2023-02-19_12-20-36: 1 Preprocessing jobs failed. Aborting pipeline.
+2023-02-19_12-20-36: [7883] Download finished.
+2023-02-19_12-20-36: [7937] ./preprocessing.sh "" "" /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR691MQJ//preprocessing/intermediates /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE//ENCSR691MQJ//preprocessing/bigWigs /scratch/groups/akundaje/anusri/chromatin_atlas/reference/ 2fbrbhfjliebhafv
+2023-02-19_12-20-36: [7937] Waiting for Preprocessing to finish...
+2023-02-19_12-20-36: Pending jobs - 7937
+2023-02-19_12-20-36: [7937] Preprocessing failed.
+2023-02-19_12-20-36: 1 Preprocessing jobs failed. Aborting pipeline.

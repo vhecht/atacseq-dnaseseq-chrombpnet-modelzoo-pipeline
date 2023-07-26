@@ -48,15 +48,36 @@ echo $( timestamp ): SE COUNT $tag $se_count | tee -a $logfile
 # if it's a mixed bag then we'll halt the pipeline because dealing with that
 # becomes complicated (we have to match the corresponding bams from the 
 # aligmemts and unfiltered_alignments and that metadata is not available)
-if [ $se_count -gt 0 ] && [ $pe_count -gt 0 ]
-then
-    echo $( timestamp ): Both SE & PE found, Exiting. | tee -a $logfile
-    exit 1
-fi
+#if [ $se_count -gt 0 ] && [ $pe_count -gt 0 ]
+#then
+#    echo $( timestamp ): Both SE & PE found, Using only PE. | tee -a $logfile
+#    exit 1
+#
+#fi
 
 all_bams_for_merging=() 
+if [ $se_count -gt 0 ] && [ $pe_count -gt 0 ]
+then
+    echo $( timestamp ): Both SE & PE found, Using only PE. | tee -a $logfile
+    # paired-end reads
+    for bam_file in $alignments
+    do
+        bam_file_path=$bams_dir/$bam_file.bam
+        pe_read_count=`samtools view -c -f 1 ${bam_file_path}`
+        if [ "$pe_read_count" = "0" ]; then
+            echo "Not using SE alignment "
+            echo $bam_file.bam
+        else
+            echo "using PE alignment "
+            echo $bam_file.bam
+            #pe_count=$((pe_count + 1))
+            # we dont need to do any filtering
+            all_bams_for_merging+=( ${bam_file_path} )
+        fi
+
+    done
 # if bams were single ended
-if [ $se_count -gt 0 ]
+elif [ $se_count -gt 0 ]
 then
     echo $( timestamp ): All unfiltered alignments bams are single ended. \
     Applying samtools filtering. | tee -a $logfile

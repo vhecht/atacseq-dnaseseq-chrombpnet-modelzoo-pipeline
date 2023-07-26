@@ -1,0 +1,12 @@
+bash start_modeling.sh ENCSR977LVI /scratch/groups/akundaje/anusri/chromatin_atlas/ATAC /home/users/anusri/chromatin-atlas-anvil             /sherlock/metadata_atac_new.tsv /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/ATAC/
+sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits             )
+/scratch/groups/akundaje/anusri/chromatin_atlas/ATAC/ENCSR392YGP
+bash start_modeling.sh ENCSR392YGP /scratch/groups/akundaje/anusri/chromatin_atlas/ATAC /home/users/anusri/chromatin-atlas-anvil             /sherlock/metadata_atac_new.tsv /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/ATAC/
+sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits             )
+/scratch/groups/akundaje/anusri/chromatin_atlas/ATAC/ENCSR830ALP
+bash start_modeling.sh ENCSR830ALP /scratch/groups/akundaje/anusri/chromatin_atlas/ATAC /home/users/anusri/chromatin-atlas-anvil             /sherlock/metadata_atac_new.tsv /oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/ATAC/
+sbatch: error: QOSMaxSubmitJobPerUserLimit
+sbatch: error: Batch job submission failed: Job violates accounting/QOS policy (job submit limit, user's size and/or time limits             )
+

@@ -43,12 +43,12 @@ bedtools slop -i $peaks -g $reference_dir/chrom.sizes -b 1057 > $project_dir/${1
 
 echo $( timestamp ): "
 bedtools intersect -v -a \\
-    $reference_dir/genomewide_gc_hg38_stride_50_inputlen_2114.bed \\
+    $reference_dir/genomewide_gc_hg38_stride_1000_inputlen_2114.bed \\
     -b $project_dir/${1}_inliers_slop.bed $blacklist > $project_dir/candidates.tsv" | \
     tee -a $logfile 
 
 bedtools intersect -v -a \
-$reference_dir/genomewide_gc_hg38_stride_50_inputlen_2114.bed \
+$reference_dir/genomewide_gc_hg38_stride_1000_inputlen_2114.bed \
 -b $project_dir/${1}_inliers_slop.bed $blacklist > $project_dir/candidates.tsv
 
 

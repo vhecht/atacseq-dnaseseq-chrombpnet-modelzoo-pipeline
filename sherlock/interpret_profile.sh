@@ -23,5 +23,5 @@ fi
 
 
 
-echo $( timestamp ): "python $PWD/src/evaluation/interpret/interpret.py --genome=$reference_fasta --regions=$regions --output_prefix=$output_prefix --model_h5=$model_h5 --profile_or_counts profile" | tee -a $logfile
-python $PWD/src/evaluation/interpret/interpret.py --genome=$reference_fasta --regions=$regions --output_prefix=$output_prefix --model_h5=$model_h5 --profile_or_counts profile
+echo $( timestamp ): "python $PWD/src/evaluation/interpret/interpret.py --genome=$reference_fasta --regions=$regions --output_prefix=$output_prefix --model_h5=$model_h5 --profile_or_counts counts" | tee -a $logfile
+python $PWD/src/evaluation/interpret/interpret.py --genome=$reference_fasta --regions=$regions --output_prefix=$output_prefix --model_h5=$model_h5 --profile_or_counts counts

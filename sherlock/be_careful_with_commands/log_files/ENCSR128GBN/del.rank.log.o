@@ -1,0 +1,4 @@
+ENCSR128GBN
+/oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE/ENCSR128GBN/chrombpnet_model_encsr880cub_bias/interpret/ranked_ENCSR128GBN.profile_scores.h5
+/oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE/ENCSR128GBN/chrombpnet_model_encsr880cub_bias/interpret/ranked_ENCSR128GBN.interpreted_regions_profile.bed
+/oak/stanford/groups/akundaje/projects/chromatin-atlas-2022/DNASE/ENCSR128GBN/chrombpnet_model_encsr880cub_bias/interpret/ranked_ENCSR128GBN.interpreted_regions.bed

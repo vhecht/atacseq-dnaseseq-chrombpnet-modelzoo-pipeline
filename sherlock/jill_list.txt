@@ -1,0 +1,16 @@
+ENCSR662RIZ - cellline
+ENCSR945KSP - invitro
+ENCSR826URD - invitro
+ENCSR658EHM - notfound
+ENCSR818HHN - invitro
+ENCSR169KNO - invitro
+ENCSR362ZFC - invitro
+ENCSR970DQR - invitro
+ENCSR503UNA - invitro
+ENCSR108PUO - celline
+ENCSR146KFX - invitro
+ENCSR541IET - invitro
+ENCSR109RIQ - invitro
+ENCSR330JXM - brain
+ENCSR049SVH - brain
+
